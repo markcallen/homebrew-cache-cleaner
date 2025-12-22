@@ -3,7 +3,7 @@ cask "cache-cleaner" do
   name "cache-cleaner"
   desc "Collection of Go CLI tools for reclaiming disk space on development machines"
   homepage "https://github.com/markcallen/cache-cleaner"
-  version "1.1.1"
+  version "1.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -16,11 +16,11 @@ cask "cache-cleaner" do
   on_macos do
     on_intel do
       url "https://github.com/markcallen/cache-cleaner/releases/download/v#{version}/cache-cleaner-#{version}-darwin-amd64.tar.gz"
-      sha256 "1796bb74ab7e62bd341cddcdd9801384be9304a747e788635ff7ad0639148c66"
+      sha256 "6c497a59d73a64290b94f253e74165abfe43cb247b504bb612452ef75ee55545"
     end
     on_arm do
       url "https://github.com/markcallen/cache-cleaner/releases/download/v#{version}/cache-cleaner-#{version}-darwin-arm64.tar.gz"
-      sha256 "23dab6e79a7436920b64fefd4d7b6d6f75a90073e9a6a678275c2cf6b1a4a526"
+      sha256 "06c834d1c6a84d6a235734aa5bb3d2fe6fc8c5c5d93e3f03533d6ceeb97be784"
     end
   end
 
